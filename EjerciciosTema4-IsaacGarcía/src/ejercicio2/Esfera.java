@@ -11,7 +11,7 @@ public class Esfera {
 	
 	static double volumen() {
 		//Devolvemos el resultado
-		return ((4*Math.PI/3)*r*r);
+		return ((4*Math.PI/3)*r*r*r);
 	}
 
 }
