@@ -24,9 +24,16 @@ public class Operaciones {
 	}
 	
 	double division() {
+		double res=0;
+		
+		if(num2!=0) {
+			res=(double)num1/num2;
+		} else {	
+			System.err.println("ERROR: No se puede dividir entre 0");
+		}
 		
 		//Devolvemos la división con decimales
-		return (double)num1/num2;
+		return res;
 	}
 
 }
